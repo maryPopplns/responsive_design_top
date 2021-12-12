@@ -1,0 +1,10 @@
+.nav-header {
+  display: flex;
+  align-items: center;
+  height: 3.5em;
+  background-color: rgb(159, 255, 255);
+}
+
+.nav-header > svg {
+  height: 1em;
+}
