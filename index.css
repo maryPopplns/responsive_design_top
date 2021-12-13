@@ -81,5 +81,26 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 2rem 3rem;
   width: 100vw;
+  box-sizing: border-box;
+}
+
+.popular-articles > h2 {
+  font-family: url('./assets/Montserrat/Montserrat-Bold.ttf');
+  font-size: 3rem;
+  text-align: center;
+}
+
+.popular-articles > ol > li {
+  display: flex;
+  margin: 3rem 0;
+  font-size: 2rem;
+  color: red;
+}
+
+.popular-articles > ol > li > div {
+  font-size: 1rem;
+  margin-left: 1rem;
+  color: black;
 }
