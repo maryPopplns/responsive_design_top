@@ -18,7 +18,7 @@
 html {
   font-family: 'montserrat-medium';
   font-size: 16px;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 .nav-header {
@@ -121,9 +121,8 @@ html {
 
 .lastest-stories > ul > li {
   display: flex;
-  /* margin: 0 1rem;
-  margin-top: 2rem; */
-  /* width: 100vw; */
+  margin: 0 1rem;
+  margin-top: 2rem;
   box-sizing: border-box;
 }
 
@@ -142,7 +141,6 @@ html {
 .lastest-stories > ul > li > div:nth-child(2) {
   width: 75%;
   background-color: red;
-  /* margin-left: 1rem; */
   box-sizing: border-box;
 }
 
