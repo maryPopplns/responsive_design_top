@@ -18,6 +18,7 @@
 html {
   font-family: 'montserrat-medium';
   font-size: 16px;
+  /* overflow-x: hidden; */
 }
 
 .nav-header {
@@ -67,8 +68,8 @@ html {
 
 .showcase-advert {
   box-sizing: border-box;
-  width: 100vw;
-  height: calc(100vw / 2);
+  width: 100%;
+  height: calc(100% / 2);
   padding: 0 1rem;
   overflow: hidden;
 }
@@ -83,9 +84,9 @@ html {
   align-items: center;
   padding: 2rem 3rem;
   margin: 3rem 0;
-  width: 100vw;
-  box-sizing: border-box;
+  width: 100%;
   background-color: #eaeaea;
+  box-sizing: border-box;
 }
 
 .popular-articles > h2 {
@@ -97,6 +98,10 @@ html {
 .popular-articles > ol > li {
   display: flex;
   margin-top: 3rem;
+}
+
+.popular-articles > ol > li > div:nth-child(1) {
+  display: flex;
   font-size: 2rem;
   color: red;
 }
@@ -105,6 +110,7 @@ html {
   font-size: 1rem;
   margin-left: 1rem;
   color: black;
+  box-sizing: border-box;
 }
 
 .lastest-stories > h2 {
@@ -115,9 +121,9 @@ html {
 
 .lastest-stories > ul > li {
   display: flex;
-  margin: 0 1rem;
-  margin-top: 2rem;
-  width: 100vw;
+  /* margin: 0 1rem;
+  margin-top: 2rem; */
+  /* width: 100vw; */
   box-sizing: border-box;
 }
 
@@ -126,14 +132,18 @@ html {
 }
 
 .lastest-story-img-container > img {
-  height: 100%;
   width: 100%;
+  height: auto;
   border-radius: 50%;
+  object-fit: contain;
+  box-sizing: border-box;
 }
 
 .lastest-stories > ul > li > div:nth-child(2) {
   width: 75%;
-  margin-left: 1rem;
+  background-color: red;
+  /* margin-left: 1rem; */
+  box-sizing: border-box;
 }
 
 .lastest-stories > ul > li > div > p {
