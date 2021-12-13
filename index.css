@@ -49,13 +49,16 @@ html {
 .showcase {
   display: flex;
   width: 100vw;
-  overflow-y: auto;
+  overflow-y: hidden;
+}
+
+.showcase::-webkit-scrollbar {
+  display: none;
 }
 
 .showcase > div {
   flex: 0 0 85vw;
   margin: 5px;
-  /* height: auto; */
 }
 
 .showcase > div > img {
@@ -72,4 +75,11 @@ html {
 
 .showcase-advert > img {
   width: 100%;
+}
+
+.popular-articles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
 }
