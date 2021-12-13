@@ -53,8 +53,23 @@ html {
 }
 
 .showcase > div {
-  margin: 5px;
-  border: 1px solid black;
   flex: 0 0 85vw;
-  height: auto;
+  margin: 5px;
+  /* height: auto; */
+}
+
+.showcase > div > img {
+  width: 100%;
+}
+
+.showcase-advert {
+  box-sizing: border-box;
+  width: 100vw;
+  height: calc(100vw / 2);
+  padding: 0 1rem;
+  overflow: hidden;
+}
+
+.showcase-advert > img {
+  width: 100%;
 }
